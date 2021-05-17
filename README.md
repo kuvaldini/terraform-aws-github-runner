@@ -154,7 +154,7 @@ Note that `github_app.key_base64` needs to be the base64-encoded `.pem` file, i.
 ```terraform
 module "github-runner" {
   source  = "philips-labs/github-runner/aws"
-  version = "0.9.1"
+  version = "0.13.0"
 
   aws_region = "eu-west-1"
   vpc_id     = "vpc-123"
